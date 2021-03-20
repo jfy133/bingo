@@ -10,7 +10,8 @@ class Instructions extends Component {
         <ul>
           <li>Press tiles as phrases come up.</li>
           <li>Your game timer begins as soon as you start a new board.</li>
-          <li><strong>5 in a row is bingo!</strong></li>
+          <li><strong>3 in a row is bingo!</strong></li>
+          <p>This page was modified after Backlog-Bingo (https://backlog-bingo.com/). Code: https://github.com/cordeliadillon/bingo/ originally made by Cordelia Dillon (https://www.cordeliadillon.com/)</p>
         </ul>
       </div>
     );

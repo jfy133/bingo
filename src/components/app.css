@@ -1,6 +1,6 @@
 body {
   background-color: #f6f7fa;
-  font-family: Avenir ,sans-serif;
+  font-family: Maven Pro ,sans-serif;
   padding: 2px;
   padding-bottom: 10rem;
 }
@@ -79,7 +79,7 @@ header, main, aside {
 }
 
 .cell-toggle[aria-pressed='true'] {
-  background: #16325c;
+  background: #24B064;
   color: white;
   font-style: italic;
 }
@@ -90,7 +90,7 @@ header, main, aside {
 
 .cell-toggle:focus {
   outline: none;
-  border: .5rem solid #1589ee;
+  border: .5rem solid #24B064;
 }
 
 @media only screen and (max-device-width : 480px) {
@@ -100,7 +100,7 @@ header, main, aside {
 }
 
 .blue-button {
-  background-color: #1460AA;
+  background-color: #24B064;
 }
 
 .refresh {
