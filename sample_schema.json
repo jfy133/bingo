@@ -1,7 +1,7 @@
 {
   "games" : {
     "nf-core-hackathon" : {
-      "instructions" : "Once you get a bingo, add yourself to the leaderboard with: `name (Github handle)`, and shout on slack channel #hackathon-march-2021 for a chance to 'win'.",
+      "instructions" : "Once you get a bingo, 1) add yourself to the leaderboard with: `name (Github handle)`. Then 2) shout on slack channel #hackathon-march-2021 with a screenshot of your board, for a chance to 'win'!",
       "lexicon" : [
         "👶 Interruption from child",
         "⛪ Harshil Patel preaches the benefits of DSL2",
@@ -11,7 +11,7 @@
         "🔇 Someone forgets they are muted",
         "❌ Someone accidentally opens a PR into Master",
         "🐈 Cat/child on someone's keyboard",
-        "🔁 nf-core template sync fail",
+        "🔁 nf-core template release sync fails immediately",
         "🔔 Slack notification goes off when talking",
         "🖥️ Nextflow is mentioned",
         "⚖ Someone mentions RNASeq as an example",
@@ -34,7 +34,13 @@
         "📺 Someone writes in the wrong hackathon channel",
         "🧵 Someone refers to a lost discussion thread",
         "📦'Conda is not recommend, you should really use containers'",
-        "🐍 Conda environment not resolving"
+        "🐍 Conda environment not resolving",
+        "🔥Github goes down during hackathon",
+        "🐛 New bug found in nf-core/tools",
+        "😱 nf-core release a new version tools just before the hackathon",
+        "🍬 Harshil says 🍬",
+        "⚒️ Someone says they can't paste a tools traceback on slack because it's too long",
+        "🤦🏾 Someone forgets to update the CHANGELOG"
       ],
       "size" : 5
     }
