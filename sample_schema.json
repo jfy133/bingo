@@ -1,7 +1,7 @@
 {
   "games" : {
-    "nf-core-hackathon-2021-03" : {
-      "instructions" : "### Write anything here using basic **markdown**...",
+    "nf-core-hackathon" : {
+      "instructions" : "Once you get a bingo, add yourself to the leaderboard with: `name (Github handle)`, and shout on slack channel #hackathon-march-2021 for a chance to 'win'.",
       "lexicon" : [
         "👶 Interruption from child",
         "⛪ Harshil Patel preaches the benefits of DSL2",
@@ -18,18 +18,23 @@
         "🏔 Someone mentions Sarek as an example",
         "😶 Awkward silence",
         "🔫 Alex 'trigger-happy' Peltzer merges something early",
-        "⌚ Someone misses something because of daylight-savings",
+        "⌚ Someone misses something because of daylight-savings/timezone fail",
         "📔 Someone mentions documentation as an afterthought",
         "🧦 Socks are mentioned",
         "⚠️ Markdown lint fail",
         "🤑 Phil mentions how much he loves the Rich python package",
-        "📦 Singularity/docker/<container> 'failed to pull'' error",
+        "📦 Singularity/docker/conda etc. 'failed to pull' error",
         "⋈ Someone mentions that we don't talk about `bowtie_build`",
         "🎧 Discussion about a song on the nf-core hackathon playlist",
         "🍺 Beer-o-clock is mentioned",
         "📊 MultiQC is mentioned",
         "↩️  A question gets referred to a pipeline-specific slack channel",
-        "❓ A review request is made on #request-review"
+        "❓ A review request is made on #request-review",
+        "🐍 Snakemake is mentioned",
+        "📺 Someone writes in the wrong hackathon channel",
+        "🧵 Someone refers to a lost discussion thread",
+        "📦'Conda is not recommend, you should really use containers'",
+        "🐍 Conda environment not resolving"
       ],
       "size" : 5
     }
