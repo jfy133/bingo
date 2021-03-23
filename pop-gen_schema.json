@@ -1,0 +1,31 @@
+{
+  "games" : {
+    "ancient-human_pop-gen" : {
+      "instructions" : "Once you get a bingo, add yourself to the leaderboard with your name!",
+      "lexicon" : [
+        "PCA Shown",
+        "Speaker mentions that _the_PCA needs to no introduction",
+        "A PCA that aligns with a map/geographic pattern is shown",
+        "'IBD will resolve that relationship'",
+        "Performing kinship analysis just 'because'",
+        "Having >25 colours in PCA, and can no-longer distinguish them",
+        "David Reich or Reich lab mentioned",
+        "Ancestry mentioned",
+        "Loads of slides of F-statistics results",
+        "Token first two slides of 'archaeological context' that is just pictures of pretty rare artefacts of the culture",
+        "Yamnaya 'massive migration' mentioned",
+        "Arrows on a map showing 'migration' based on genetic movement even though genetics can't show physical movement",
+        "Western Hunter-Gatherers or WHG mentioned",
+        "qpWave mentioned",
+        "X number of genomes mentioned when really they mean 'genome-wide' data",
+        "1240k capture mentioned",
+        "ADMIXTURE graph shown",
+        "F3 and F4 statistics mentioned",
+        "Title says 'Ancient DNA' <analysis/tool/reveals> when it _actually_ only means for human population-genetics ",
+        "Study emphasise co-analysis of disease from pathogen screening, but as a 1-2 slide after thought"
+
+      ],
+      "size" : 5
+    }
+  }
+}
