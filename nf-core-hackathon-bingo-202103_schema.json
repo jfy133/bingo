@@ -46,7 +46,11 @@
         "👀 nf-core/tools release DURING a hackathon",
         "🐛 The classic `AttributeError: 'str' object has no attribute 'message'` python error appears",
         "🪟 Wrong window or screen shared during video call",
-        "📛 Someone apologises for not pronouncing someone's name correctly"
+        "📛 Someone apologises for not pronouncing someone's name correctly",
+        "⌨ Someone makes a typo in writing 'nf-core'",
+        "📈 Phil mentions the nf-co.re website's stats page is his favourite",
+        "👶 Someone says 'it should be easy' or 'we should get this done in no time'. And it wasn't.",
+        "🥐 Maxime G. reminds people to eat/drink and/or move around"
       ],
       "size" : 5
     }
