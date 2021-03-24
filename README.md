@@ -17,6 +17,8 @@ You could use any underlying database for this, but [Firebase](https://firebase.
 2. In the Firebase console for your project, create a new Realtime Database.
 3. In the Data tab of your Realtime Database, click Import JSON and upload the [sample schema](sample_schema.json).
 
+> N.B. Make sure Default GCP resource location is US (Europe will not work, as this doesn't give the `firebase.io` URL suffix)
+
 ### Local setup
 
 1. Clone this repo.
@@ -29,12 +31,12 @@ You could use any underlying database for this, but [Firebase](https://firebase.
     - configure as single-page app
 4. Create an `.env` file with the following data from your Firebase project's settings:
     ```
-    REACT_APP_FIREBASE_API_KEY={your_data}
-    REACT_APP_FIREBASE_AUTH_DOMAIN={your_data}
-    REACT_APP_FIREBASE_DATABASE_URL={your_data}
-    REACT_APP_FIREBASE_PROJECT_ID={your_data}
-    REACT_APP_FIREBASE_STORAGE_BUCKET={your_data}
-    REACT_APP_FIREBASE_MESSAGEING_SENDER_ID={your_data}
+    REACT_APP_FIREBASE_API_KEY={your_data} ## Need to activate by loading Build > Authentication tab (and turn on anonymous at minimum)
+    REACT_APP_FIREBASE_AUTH_DOMAIN={your_data} ## Not Needed
+    REACT_APP_FIREBASE_DATABASE_URL={your_data} #  Build > Realtime Database  > As displayed on the link above the JSON thing on
+    REACT_APP_FIREBASE_PROJECT_ID={your_data} ## Project Settings > General > Project ID
+    REACT_APP_FIREBASE_STORAGE_BUCKET={your_data} # ## Project Settings > General > Project Number > Default GCP resource location (Must be US as URL needs to end in firebase.io)
+    REACT_APP_FIREBASE_MESSAGEING_SENDER_ID={your_data} ## Project Settings > General > Project Number
     ```
 
 ### Check that it's all working
