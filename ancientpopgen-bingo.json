@@ -1,6 +1,6 @@
 {
   "games" : {
-    "ancient-human_pop-gen" : {
+    "ancientpopgen-bingo" : {
       "instructions" : "Once you get a bingo, add yourself to the leaderboard with your name!",
       "lexicon" : [
         "🌐 A PCA is shown",

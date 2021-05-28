@@ -1,0 +1,55 @@
+[debug] [2021-05-28T10:49:03.504Z] ----------------------------------------------------------------------
+[debug] [2021-05-28T10:49:03.507Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --debug
+[debug] [2021-05-28T10:49:03.508Z] CLI Version:   9.6.1
+[debug] [2021-05-28T10:49:03.508Z] Platform:      linux
+[debug] [2021-05-28T10:49:03.508Z] Node Version:  v10.19.0
+[debug] [2021-05-28T10:49:03.509Z] Time:          Fri May 28 2021 12:49:03 GMT+0200 (Central European Summer Time)
+[debug] [2021-05-28T10:49:03.509Z] ----------------------------------------------------------------------
+[debug] [2021-05-28T10:49:03.509Z] 
+[debug] [2021-05-28T10:49:03.518Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-05-28T10:49:03.519Z] > authorizing via signed-in user
+[debug] [2021-05-28T10:49:03.520Z] [iam] checking project ancient-popgen-bingo for permissions ["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]
+[debug] [2021-05-28T10:49:03.526Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ancient-popgen-bingo:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasedatabase.instances.update","firebasehosting.sites.update"]}
+[debug] [2021-05-28T10:49:04.247Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 28 May 2021 10:49:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=600","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-28T10:49:04.252Z] > refreshing access token with scopes: []
+[debug] [2021-05-28T10:49:04.253Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-28T10:49:04.362Z] <<< HTTP RESPONSE 200 {"date":"Fri, 28 May 2021 10:49:04 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-28T10:49:04.373Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ancient-popgen-bingo [none]
+[debug] [2021-05-28T10:49:04.553Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ancient-popgen-bingo 200
+[debug] [2021-05-28T10:49:04.554Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ancient-popgen-bingo {"projectId":"ancient-popgen-bingo","projectNumber":"630410249635","displayName":"ancient-popgen-bingo","name":"projects/ancient-popgen-bingo","resources":{"hostingSite":"ancient-popgen-bingo","realtimeDatabaseInstance":"ancient-popgen-bingo-default-rtdb","storageBucket":"ancient-popgen-bingo.appspot.com","locationId":"us-central"},"state":"DELETED"}
+[debug] [2021-05-28T10:49:04.555Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ancient-popgen-bingo [none]
+[debug] [2021-05-28T10:49:04.718Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ancient-popgen-bingo 200
+[debug] [2021-05-28T10:49:04.718Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ancient-popgen-bingo {"projectId":"ancient-popgen-bingo","projectNumber":"630410249635","displayName":"ancient-popgen-bingo","name":"projects/ancient-popgen-bingo","resources":{"hostingSite":"ancient-popgen-bingo","realtimeDatabaseInstance":"ancient-popgen-bingo-default-rtdb","storageBucket":"ancient-popgen-bingo.appspot.com","locationId":"us-central"},"state":"DELETED"}
+[info] 
+[info] === Deploying to 'ancient-popgen-bingo'...
+[info] 
+[info] i  deploying database, hosting 
+[info] i  database: checking rules syntax... 
+[debug] [2021-05-28T10:49:04.723Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-05-28T10:49:04.724Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-05-28T10:49:04.836Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Fri, 28 May 2021 10:49:04 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-28T10:49:04.843Z] >>> HTTP REQUEST GET https://firebasedatabase.googleapis.com/v1beta/projects/ancient-popgen-bingo/locations/-/instances/ancient-popgen-bingo-default-rtdb  
+ 
+[debug] [2021-05-28T10:49:05.178Z] <<< HTTP RESPONSE 404 {"vary":"X-Origin, Referer, Origin,Accept-Encoding","content-type":"application/json; charset=UTF-8","date":"Fri, 28 May 2021 10:49:05 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-05-28T10:49:05.179Z] <<< HTTP RESPONSE BODY {"error":{"code":404,"message":"Requested entity was not found.","status":"NOT_FOUND"}}
+[debug] [2021-05-28T10:49:05.180Z] HTTP Error: 404, Requested entity was not found.
+[debug] [2021-05-28T10:49:05.282Z] FirebaseError: HTTP Error: 404, Requested entity was not found.
+    at module.exports (/usr/local/lib/node_modules/firebase-tools/lib/responseToError.js:38:12)
+    at Request._callback (/usr/local/lib/node_modules/firebase-tools/lib/api.js:41:35)
+    at Request.self.callback (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:185:22)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at Request.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1154:10)
+    at Request.emit (events.js:198:13)
+    at Request.EventEmitter.emit (domain.js:448:20)
+    at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/firebase-tools/node_modules/request/request.js:1076:12)
+    at Object.onceWrapper (events.js:286:20)
+    at IncomingMessage.emit (events.js:203:15)
+    at IncomingMessage.EventEmitter.emit (domain.js:448:20)
+    at endReadableNT (_stream_readable.js:1145:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[error] 
+[error] Error: Failed to get instance details for instance: ancient-popgen-bingo-default-rtdb. See firebase-debug.log for more details.
