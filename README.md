@@ -15,7 +15,9 @@ You could use any underlying database for this, but [Firebase](https://firebase.
 
 1. Create a new Firebase project at https://firebase.google.com/.
 2. In the Firebase console for your project, create a new Realtime Database.
-3. In the Data tab of your Realtime Database, click Import JSON and upload the [sample schema](sample_schema.json).
+3. Specify location in US and start in locked mode.
+4. In the Data tab of your Realtime Database, click Import JSON and upload the [sample schema](sample_schema.json).
+5. Copy the rules in `database_rules.json` into the Realtime Database > Rules tab.
 
 > N.B. Make sure Default GCP resource location is US (Europe will not work, as this doesn't give the `firebase.io` URL suffix)
 
