@@ -1,7 +1,7 @@
 {
   "games" : {
     "nf-core-hackathon" : {
-      "instructions" : "Once you get a bingo, 1) add yourself to the leaderboard with: `name (Github handle)`. Then 2) shout on slack channel #hackathon-march-2021 with a screenshot of your board, for a chance to 'win'!",
+      "instructions" : "Once you get a bingo, 1) add yourself to the leaderboard with: `name (Github handle)`. Then 2) shout on the event's slack channel with a screenshot of your board, for a chance to 'win'!",
       "lexicon" : [ 
         "👶 Interruption from child", 
         "⛪ Harshil Patel preaches the benefits of DSL2", 
@@ -41,7 +41,7 @@
         "🍬 Harshil says 🍬", 
         "⚒️ Someone says they can't paste a tools traceback on slack because it's too long", 
         "🤦🏾 Someone forgets to update the CHANGELOG", 
-        "🔥Docker/quay.io goes down!", 
+        "🔥 Docker/quay.io goes down!", 
         "🔥🔥🔥 EVERY SERVICE GOES DOWN", 
         "👀 nf-core/tools release DURING a hackathon",
         "🐛 The classic `AttributeError: 'str' object has no attribute 'message'` python error appears",
