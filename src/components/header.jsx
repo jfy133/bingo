@@ -16,7 +16,7 @@ class Header extends Component {
     return (
       <header className="flex justify-between items-end bb-5 pv-1">
         <h1 className={this.props.gotBingo ? "visually-hidden" : "ma2 f1-ns f2-m f3"}>
-          Bingo!
+        <img alt="nf-core/bingo logo" width="50%" src="https://github.com/jfy133/bingo/raw/master/logos/nfcore-bingo_logo.png"></img>
         </h1>
         {this.renderSuccess()}
         {this.props.children}
