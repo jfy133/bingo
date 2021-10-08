@@ -85,6 +85,8 @@ Should be as simple as:
 
 > If you get an error such as `Error: HTTP Error: 403, Cloud Firestore API has not been used in project`, you need to enable the Firestore API. Use the printed link, but check you open with the right Google account.
 
+> If you get an error such as `Error: HTTP Error: 400, <...something about doesn't work with datastore anymore>`, go to https://console.cloud.google.com/firestore/ and activate `Native` mode, and try deploying again
+
 ## Disclaimers
 
 This is a prototype for which I have yet to build any tests. Use at your own risk.
