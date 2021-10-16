@@ -87,6 +87,8 @@ Should be as simple as:
 
 > If you get an error such as `Error: HTTP Error: 400, <...something about doesn't work with datastore anymore>`, go to https://console.cloud.google.com/firestore/ and activate `Native` mode, and try deploying again
 
+> You are looking for 15 files in `build` in total being deployed
+
 ## Disclaimers
 
 This is a prototype for which I have yet to build any tests. Use at your own risk.
