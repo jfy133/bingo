@@ -1,7 +1,10 @@
 # Bingo
 
-An accessible bingo web app using React and Firebase.
+An accessible bingo web app using React and Firebase. Modified from the 'backlog-bingo' app by [Cordelia Dillon](https://github.com/cordeliadillon) for the March 2021 nf-core/hackathon.
 
+> All documentation below is from the original author
+
+Original:
 [See it in action](https://backlog-bingo.com/), [read about its accessibility](https://www.24a11y.com/2019/building-an-accessible-bingo-web-app/), or build your own version using the instructions below:
 
 ## Getting started
@@ -12,7 +15,11 @@ You could use any underlying database for this, but [Firebase](https://firebase.
 
 1. Create a new Firebase project at https://firebase.google.com/.
 2. In the Firebase console for your project, create a new Realtime Database.
-3. In the Data tab of your Realtime Database, click Import JSON and upload the [sample schema](sample_schema.json).
+3. Specify location in US and start in locked mode.
+4. In the Data tab of your Realtime Database, click Import JSON and upload the [sample schema](sample_schema.json).
+5. Copy the rules in `database_rules.json` into the Realtime Database > Rules tab.
+
+> N.B. Make sure Default GCP resource location is US (Europe will not work, as this doesn't give the `firebase.io` URL suffix)
 
 ### Local setup
 
@@ -26,12 +33,12 @@ You could use any underlying database for this, but [Firebase](https://firebase.
     - configure as single-page app
 4. Create an `.env` file with the following data from your Firebase project's settings:
     ```
-    REACT_APP_FIREBASE_API_KEY={your_data}
-    REACT_APP_FIREBASE_AUTH_DOMAIN={your_data}
-    REACT_APP_FIREBASE_DATABASE_URL={your_data}
-    REACT_APP_FIREBASE_PROJECT_ID={your_data}
-    REACT_APP_FIREBASE_STORAGE_BUCKET={your_data}
-    REACT_APP_FIREBASE_MESSAGEING_SENDER_ID={your_data}
+    REACT_APP_FIREBASE_API_KEY={your_data} ## Need to activate by loading Build > Authentication tab (and turn on anonymous at minimum). Find API key under project settings.
+    REACT_APP_FIREBASE_AUTH_DOMAIN={your_data} ## Not Needed
+    REACT_APP_FIREBASE_DATABASE_URL={your_data} #  Build > Realtime Database  > As displayed on the link above the JSON thing on
+    REACT_APP_FIREBASE_PROJECT_ID={your_data} ## Project Settings > General > Project ID
+    REACT_APP_FIREBASE_STORAGE_BUCKET={your_data} # ## Project Settings > General > Default GCP resource location (Must be US as URL needs to end in firebase.io)
+    REACT_APP_FIREBASE_MESSAGEING_SENDER_ID={your_data} ## Project Settings > General > Project Number
     ```
 
 ### Check that it's all working
@@ -75,6 +82,12 @@ Should be as simple as:
 > npm run build
 > firebase deploy
 ```
+
+> If you get an error such as `Error: HTTP Error: 403, Cloud Firestore API has not been used in project`, you need to enable the Firestore API. Use the printed link, but check you open with the right Google account.
+
+> If you get an error such as `Error: HTTP Error: 400, <...something about doesn't work with datastore anymore>`, go to https://console.cloud.google.com/firestore/ and activate `Native` mode, and try deploying again
+
+> You are looking for 15 files in `build` in total being deployed
 
 ## Disclaimers
 
