@@ -373,6 +373,7 @@ class Board extends Component {
           </button>
         </Header>
         <main>
+          <p style={{fontSize: "12px"}}>🛈 See leaderboard and Instructions below the board.</p>
           <table role='grid' className='maxw-95'>
             <tbody role='rowgroup'>
               {this.state.grid.map((row, y) => { return (this.renderRow(row, y))})}

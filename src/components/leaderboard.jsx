@@ -11,7 +11,7 @@ class LeaderBoard extends Component {
       return (
         <div>
           <p>There's no one on the leaderboard yet!</p>
-          <p>Get {this.props.size} phrases in a row to add yourself to the list.</p>
+          <p>Get {this.props.size} phrases in a row to add yourself to the list with: &lt;name surname&gt; (@&lt;github handle&gt;).</p>
         </div>
       );
     }
